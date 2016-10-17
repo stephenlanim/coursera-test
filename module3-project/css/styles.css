@@ -1,0 +1,64 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+/* NAVBAR STYLING */
+#header-nav {
+    background-color: #FFE981;
+    border: 0;
+    border-radius: 0; /* To erase Bootstrap's default rounded border */
+}
+
+.navbar-brand h1 { /*Restaurant Name*/
+    color: #6e6e6e;
+    margin-top: -25px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-collapse { /* Dropdown Menu */
+    margin-top: 20px;
+}
+
+.navbar-default {
+/*    height: 100px;*/
+    padding-top: 25px;
+}
+
+#nav-list { /*Navigation List*/
+    text-align: center;
+}
+
+#nav-list a {
+    background-color: #FFE981;
+}
+
+#nav-list a:hover {
+    background-color: #e7e7e7;
+}
+
+
+/* END OF NAVBAR STLYING */
+
+
+
+/* MAIN CONTENT STYLING */
+
+.subsection {
+    background-color: #FFE981;
+    height: 700px;
+    margin: 1%;
+    padding: 2%;
+}
+
+/* END OF MAIN CONTENT STYLING */
+
+/* .navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #56FFBC; */
+
