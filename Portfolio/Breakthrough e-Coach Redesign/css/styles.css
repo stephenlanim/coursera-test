@@ -1,0 +1,198 @@
+body {
+    font-family: 'Oxygen', 'Verdana', 'Arial', sans-serif;
+    font-size: 1.5em;
+}
+
+/* NAVBAR STYLING */
+.jumbotron { /* Stop Header from spilling over */
+    background-color: #FFCC00;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+
+/* @media (min-width: 425px) {
+    .navbar-form {
+        margin-right: 0;
+        padding-right: 0;
+    }
+} */
+
+@media (max-width: 1000px) { /* Force navbar to collapse at 768px (tablet) */
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+
+#header-nav {
+    border: 0;
+    border-radius: 0; /* To erase Bootstrap's default rounded border */
+}
+
+#logo {
+    padding-top: -20px;
+    margin-top: -20px;
+}
+
+#company-name {
+    margin-top: -25px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand h1 { /*Company Name*/
+    color: #6e6e6e;
+    margin-top: -25px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-default {
+    padding-top: 25px;
+}
+
+/* END OF NAVBAR STLYING */
+
+
+
+/* MAIN CONTENT STYLING */
+
+.gold-background { /* gold page background */
+    background-color: #FFCC00;
+    margin-top: -20px;
+}
+
+.plain-background { /* plain page background */
+    margin-top: -20px;   
+}
+
+
+#content-center { /* Use to center the main content box that has "col" class */
+    background-color: #FFFFFF;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.gold-heading {
+    color: #FFCC00;
+    text-shadow:  1px 1px 1px #000;
+}
+
+/* END OF MAIN CONTENT STYLING */
+
+
+
+/*CAROUSEL STYLING*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 70%;
+}
+
+.carousel-caption > h2 {
+    color: #FFCC00;
+    text-shadow:  2px 2px 1px #000;
+}
+
+.carousel-caption {
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 75px;
+    margin: auto auto;
+}
+
+.carousel-indicators li {
+    background-color: #FFCC00;
+    box-shadow: inset 2px 2px 2px #222;
+}
+
+.carousel-indicators .active {
+    background-color: #666;
+}
+
+.item {
+    background-color: #444444;
+}
+
+/*END OF CAROUSEL STYLING*/
+
+
+
+/* BLOG POST STYLING */
+
+#main-box { /* Main content box */
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 5px 5px #AAAAAA;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.author { /* blog post author */
+    font-size: 1.25em;
+}
+
+/* END OF BLOG POST STYLING */
+
+
+/* COURSE SUMMARY STYLING */
+
+.course-section {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.course-preview {
+    width: 75%
+}
+
+#enroll-btn {
+    margin-top: 10px;
+}
+
+.blog-graphic {
+    float: left;
+    margin-right: 10px;
+}
+
+/* END OF COURSE SUMMARY STYLING */
+

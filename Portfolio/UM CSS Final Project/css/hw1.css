@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #6964FF;
+    background-image: url(../images/flywheel.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+h1 {
+    color: #FFD400;
+    font-size: 200%;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2 {
+    color: #3B38B2;
+}
+
+nav {
+    text-align: center;
+}
+
+nav>a {
+    background-color: #FFD400;
+    border-radius: 10px;
+    color: #6964FF;
+    display: inline-block;
+    font-size: 125%;
+    height: 50px;
+    margin: 25px 20px;
+    opacity: .5;
+    padding: 10px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+nav a:hover {
+    background-color: #6964FF;
+    color: #FFD400;
+}
+
+nav a:focus {
+    background-color: #6964FF;
+    color: #FFD400;
+}
+
+nav a:active {
+    background-color: #FFFFFF;
+    color: #6964FF;
+    
+}
+
+.active {
+    opacity: 1;
+}
+
+aside {
+    display: inline-block;
+}
+
+section {
+    background-color: #FFD400;
+    display: inline-block;
+}
+
+.left {
+    background: #6964FF;
+    float: left;
+    height: 100vh; /* This is 100% of the viewport height (vh) */
+    overflow: auto;
+    width: 25%;
+}
+
+
+.left img {
+    border: 2px solid black;
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+
+
+.right {
+    height: 100vh; /* This is 100% of the viewport height (vh) */
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 75%;
+}
+
+table {
+    font-family: "Trebuchet MS", Geneva, Helvetica, sans-serif;
+    margin: auto;
+    transition-duration: .25s;
+    transition-property: background;
+    transition-timing-function: linear;
+    width: 90%;
+}
+
+table:hover {
+    background: black;
+}
+
+th {
+    background-image: linear-gradient(#6964FF, #555555);
+    border-bottom: 4px solid #6964FF;
+    border-radius: 5px 5px 0 0;
+    color: #FFFFFF;
+    padding: 0 1%;
+}
+
+tr:nth-child(1n+2) {
+    opacity: .8;
+}
+
+td {
+    background-color: #6964FF;
+    /* border-radius: 2px; */
+    color: #FFFFFF;
+    padding: 1% 1%;
+    text-shadow: 2px 3px 2px black;
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+th:nth-child(1n+2) {
+    text-align: center;
+}
+
+td:nth-child(1n) {
+    text-align: left;
+}
+
+td:nth-child(1n+2) {
+    text-align: center;
+}
+
+.footer-placement {
+    text-align: center;
+}
