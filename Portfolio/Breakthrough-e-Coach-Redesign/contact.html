@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Standard meta tags for responsive design -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Facivon & Title -->
+    <link rel="icon" type="image/png" href="images/logo_brec_84x84_color-match.png">
+    <title>Innovation | Breakthrough e-Coach</title>
+
+<!-- Links to Bootstrap CSS. UPDATE VERSION #S AS NEEDED -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- My own CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+</head>
+<body>
+
+      <header class="jumbotron"> <!-- Header & Jumbotron -->
+
+        <div class="container"> <!-- Brand Container -->
+            <div class="row row-header">
+                <div class="navbar-header" id="company-name">
+                    <a href="index.html" class="pull-left">
+                            <img id=logo src="images/logo_brec_84x84_color-match.png" alt="Logo">
+                    </a>
+                    <div class="navbar-brand"> <!-- Company Name -->
+                        <a href="index.html"><h1>Breakthrough e-Coach</h1></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End of Brand Container -->
+
+        <nav id="header-nav" class="navbar navbar-inverse"> <!-- Navigation Bar -->
+            <div class="container"> <!-- Nav Container -->
+
+                <div class="navbar-header"> <!-- Collapsed Menu Button -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div><!--  End of Collapsed Menu Button -->
+
+                <div id="navbar" class="collapse navbar-collapse"> <!-- Dropdown Menu -->
+                    <ul class="nav navbar-nav"> <!-- Navbar Items -->
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="dropdown"> <!-- "Coaching" Dropdown Menu -->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Coaching <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="entrepreneurship.html">Entrepreneurship</a>
+                                </li>
+                                <li>
+                                    <a href="leadership.html">Business Leadership</a>
+                                </li>
+                                <li>
+                                    <a href="innovation.html">Innovation</a>
+                                </li>
+                                <li>
+                                    <a href="training.html">Training/Consulting</a>
+                                </li>
+                            </ul>
+                        </li> <!-- End of "Coaching" Dropdown Menu -->
+                        <li>
+                            <a href="testimonials.html">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="active">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul> <!-- End of Navbar Items -->
+
+                    <form class="navbar-form"> <!-- Search Field & Button -->
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </form>
+
+                </div><!-- End of Collapsible Nav for Dropdown Menu -->
+
+            </div> <!-- End of Nav Container -->
+
+        </nav> <!-- End of Navigation Bar -->
+
+    </header> <!-- End of Header and Jumbotron -->
+
+
+    <div class="gold-background"> <!-- Gold Background -->
+    <main class="container-fluid">  <!-- Main Content Area -->
+    <div class="row"> <!-- Row -->
+        <div class="col-xs-9" id="main-box"> <!-- 75% Grid Box -->
+            <ol class="breadcrumb"> <!-- Breadcrumbs -->
+              <li><a href="index.html">Home</a></li>
+              <li class="active">Contact</li>
+            </ol>
+
+            <h2>We&rsquo;d Love to Hear from You</h2>
+
+            <section> <!-- Contact Info Section -->
+
+                <h3>Contact Information</h3>
+                <address>
+                    Phone: <a href="tel:555-555-5555">555-555-5555</a><br>
+                    Email: <a href="mailto:headoffice@1000ventures.com">headoffice@1000ventures.com</a><br>
+                    Via <a href="#">LinkedIn</a>
+                </address>
+
+            </section> <!-- End of Contact Info Section -->
+
+            <section> <!-- Contact Form Section --> <!-- 11-12-2016: TO BE UPDATED ONCE I LEARN HOW TO ADJUST HEIGHT OF FORM INPUT BOXES AND ALLOW FOR TYPING MULTIPLE LINES OF TEXT (FOR THE "MESSAGE" BOX). -->
+
+                <h3>Email Us Now</h3>
+                <p>[Email us with questions, etc.] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit explicabo adipisci provident tempore, accusantium aspernatur minus! Nostrum vero, doloribus, quos sequi, esse adipisci facere est nulla, debitis pariatur consequatur modi!</p>
+
+                <form>
+                  <div class="form-group col-sm-7">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group col-sm-7">
+                    <label for="exampleInputSubject1">Subject</label>
+                    <input type="email-subject" class="form-control" id="exampleInputEmail1" placeholder="Subject">
+                  </div>
+                  <div class="form-group col-sm-7">
+                    <label for="exampleInputMessage1">Message</label>
+                    <input type="email-message" class="form-control" id="exampleInputPassword1" placeholder="Message">
+                  </div>
+                  <div class="clearfix"></div>
+                  <button type="submit" class="btn btn-default submit-btn">Submit</button>
+                </form>
+
+
+
+            </section> <!-- End of Contact Form Section -->
+
+
+        </div> <!-- End of 75% Grid Box -->
+    </div> <!-- End of Row -->
+    </main> <!-- End of Main Content Area -->
+    </div> <!-- End of Gold Background -->
+
+    <footer>
+        <hr>
+        <div class="container">
+            <p>Copyright &copy; 2016 1000 Ventures | <a href="#" onClick="MyWindow=window.open('terms.html', 'MyWindow', 'width=600,height=400'); return false;">Terms of Use</a> | <a href="#" onClick="MyWindow=window.open('privacy.html', 'MyWindow', 'width=600,height=400'); return false;">Privacy Policy</a> | <a href="http://www.1000ventures.com/ten3_operations/contact_us.html" target="_blank">Original Page</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap and jQuery. UPDATE VERSION #S AS NEEDED -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
